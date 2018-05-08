@@ -13,7 +13,7 @@ int main(){
 	if(pf == NULL){
 			printf("無法開啟檔案\n");
 	}else{
-		printf("\n------------------檔案設定完成------------------\n");
+		printf("\n-------------------檔案學習中-------------------\n");
 		while(!feof(pf)){
 			double data[2];
 			double answer;
@@ -50,7 +50,7 @@ int main(){
 	if(pf == NULL){
 			printf("無法開啟檔案\n");
 	}else{
-		printf("\n------------------檔案設定完成------------------\n");
+		printf("\n-------------------檔案驗證中-------------------\n");
 		while(!feof(pf)){
 			double data[3];
 			double answer;
